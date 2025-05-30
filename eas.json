@@ -1,0 +1,25 @@
+{
+  "build": {
+    "preview": {
+      "android": {
+        "buildType": "apk",
+        "distribution": "internal",
+        "env": {
+          "EXPO_USE_NATIVE_MODULES": "true"
+        }
+      }
+    },
+    "development": {
+      "android": {
+        "buildType": "apk",
+        "developmentClient": true,
+        "distribution": "internal"
+      }
+    },
+    "production": {
+      "android": {
+        "buildType": "apk"
+      }
+    }
+  }
+}
